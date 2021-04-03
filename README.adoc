@@ -1,0 +1,21 @@
+= Container Orchestration Framework
+
+== Introduction
+
+== Nomad
+
+- Nomad is a scheduler, and it supports both containers and non-container work types.
+- Nomad provides support for different OS platforms such as Linux, Windows, macOS, and compiled from source code on different platforms
+
+=== Nomad Architecture
+Usually, a Nomad cluster is deployed in combination with other HashiCorp components such as Consul, Vault and Consul cluster for automatic clustering, health check, service discovery, and dynamic configuration. Nomad supports multi-region clustering and each region communicate with another through WAN gossip.
+
+image::https://learn.hashicorp.com/img/nomad/production/nomad_reference_diagram.png[]
+
+== Docker Swarm
+
+== K3s
+
+== Overnode
+
+== Docker Compose
